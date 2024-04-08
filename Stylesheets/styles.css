@@ -1,0 +1,140 @@
+:root{
+    --light-grey-color:#e8e8e8;
+    --gold-color:#cca439;
+    --dark-grey-color:#333333;
+}
+
+
+section{
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-dark{
+    color: var(--dark-grey-color);
+}
+
+.text-white{
+    color: var(--light-grey-color);
+}
+
+a,p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.col-wrap{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.col-20{
+    width: 20%;
+    padding: 20px;
+}
+
+.col-33{
+    width: 33%;
+    padding: 20px;
+}
+
+.col-40{
+    width: 40%;
+    padding: 20px;
+}
+
+.col-50{
+    width: 50%;
+    padding: 20px;
+}
+
+.col-60{
+    width: 60%;
+    padding: 20px;
+}
+
+.col-80{
+    width: 79%;
+    padding: 20px;
+    margin-left: auto;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    max-height: 120px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-header{
+    max-height: 80px;
+}
+
+.menu-wrap{
+margin-left: auto;
+}
+
+.menu-links{
+    margin-left: 15px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.menu-col{
+    display: flex;
+    align-items: center;
+}
+
+/*** Home Page ***/
+
+.top-home-section{
+    background-image: url("../img/home-top.jpg") ;
+    background-size: cover;
+}
+
+.home-top-wrap{
+    text-align: center;
+}
+
+/*** book page ***/
+
+.booking-form{
+    width: 100%;
+    height: 100%;
+}
+
+#booking-sect{
+    height: 100vh;
+}
