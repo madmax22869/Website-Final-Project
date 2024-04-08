@@ -4,6 +4,10 @@
     --dark-grey-color:#333333;
 }
 
+body{
+    background-color: var(--light-grey-color);
+}
+
 
 section{
     max-width: 1440px;
@@ -13,7 +17,7 @@ section{
     padding-bottom: 75px;
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -43,6 +47,10 @@ h3{
 
 h4{
     font-size: 1.5rem;
+}
+
+h5{
+    font-size: 1.2rem;
 }
 
 p{
@@ -86,6 +94,10 @@ p{
     margin-left: auto;
 }
 
+.marg-top{
+    margin-top: 25px;
+}
+
 .img{
     width: 100%;
     height: 100%;
@@ -117,15 +129,31 @@ margin-left: auto;
     align-items: center;
 }
 
+.btn-wrap{
+    padding: 10px 30px;
+    background-color: var(--gold-color);
+    display: inline;
+}
+
+.btn-link{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
 /*** Home Page ***/
 
 .top-home-section{
     background-image: url("../img/home-top.jpg") ;
     background-size: cover;
+    background-position-y: 50%;
 }
 
 .home-top-wrap{
     text-align: center;
+}
+
+.service-img{
+    width: 100%;
 }
 
 /*** book page ***/
